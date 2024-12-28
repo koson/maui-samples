@@ -9,7 +9,7 @@ class KeypadViewModel: INotifyPropertyChanged
     public event PropertyChangedEventHandler PropertyChanged;
 
     private string _inputString = "";
-    private string _displayText = "";
+    private string _displayText = "555";
     private char[] _specialChars = { '*', '#' };
 
     public ICommand AddCharCommand { get; private set; }
